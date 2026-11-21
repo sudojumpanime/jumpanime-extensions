@@ -1,0 +1,19 @@
+{
+  "apiVersion": 1,
+  "extensions": [
+    {
+      "id": "en.aquamanga",
+      "name": "Aqua Manga",
+      "description": "Manga, manhwa and manhua in English.",
+      "manifestUrl": "https://raw.githubusercontent.com/sudojumpanime/jumpanime-extensions/main/manga/aquamanga.json",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=aquareader.org&sz=128"
+    },
+    {
+      "id": "en.kingofshojo",
+      "name": "King of Shojo",
+      "description": "Shojo, romance and drama manhwa and manga in English.",
+      "manifestUrl": "https://raw.githubusercontent.com/sudojumpanime/jumpanime-extensions/main/manga/kingofshojo.json",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=kingofshojo.com&sz=128"
+    }
+  ]
+}

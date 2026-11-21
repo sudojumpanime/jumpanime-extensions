@@ -1,0 +1,21 @@
+{
+  "apiVersion": 1,
+  "type": "manga",
+  "id": "en.aquamanga",
+  "name": "Aqua Manga",
+  "version": "1.0.0",
+  "description": "Manga, manhwa and manhua in English.",
+  "author": "JumpAnime",
+  "baseUrl": "https://aquareader.org",
+  "iconUrl": "https://www.google.com/s2/favicons?domain=aquareader.org&sz=128",
+  "engine": "madara",
+  "options": {
+    "searchUrl": "{base}/manga/?search={q}",
+    "searchItem": ".aqua-manga-card",
+    "searchLink": ".aqua-manga-card__title a",
+    "chapterItem": ".aqua-ch-item",
+    "chapterLink": "a",
+    "chapterName": ".aqua-ch-item__name",
+    "chaptersAjax": "false"
+  }
+}
