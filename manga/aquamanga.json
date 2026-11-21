@@ -3,7 +3,7 @@
   "type": "manga",
   "id": "en.aquamanga",
   "name": "Aqua Manga",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Manga, manhwa and manhua in English.",
   "author": "JumpAnime",
   "baseUrl": "https://aquareader.org",
@@ -24,6 +24,9 @@
     "chapterItem": ".aqua-ch-item",
     "chapterLink": "a",
     "chapterName": ".aqua-ch-item__name",
-    "chaptersAjax": "false"
+    "chaptersAjax": "false",
+    "authorItem": ".aqua-series-info__creator-value a",
+    "statusItem": ".aqua-series-meta__status",
+    "pageItem": "div.page-break img, .reading-content img"
   }
 }
